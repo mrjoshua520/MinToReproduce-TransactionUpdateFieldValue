@@ -1,4 +1,4 @@
-import { DocumentReference, Transaction } from "firebase-admin/firestore";
+import { DocumentReference, Transaction } from "@google-cloud/firestore";
 
 type DocumentDataType = {
     [key: string]: {value: boolean};
